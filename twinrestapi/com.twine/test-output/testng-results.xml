@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12806" started-at="2017-09-05T02:14:23Z" finished-at="2017-09-05T02:14:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12806" started-at="2017-09-05T02:14:23Z" finished-at="2017-09-05T02:14:36Z">
+      <class name="com.twinerestapi.com.twine.DemoApp">
+        <test-method status="PASS" signature="checkGetAPIResponseTime()[pri:0, instance:com.twinerestapi.com.twine.DemoApp@6fb8f764]" name="checkGetAPIResponseTime" duration-ms="3220" started-at="2017-09-04T19:14:23Z" finished-at="2017-09-04T19:14:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGetAPIResponseTime -->
+        <test-method status="PASS" signature="checkGetReponseBody()[pri:0, instance:com.twinerestapi.com.twine.DemoApp@6fb8f764]" name="checkGetReponseBody" duration-ms="889" started-at="2017-09-04T19:14:26Z" finished-at="2017-09-04T19:14:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGetReponseBody -->
+        <test-method status="PASS" signature="checkGetReponseElements()[pri:0, instance:com.twinerestapi.com.twine.DemoApp@6fb8f764]" name="checkGetReponseElements" duration-ms="1402" started-at="2017-09-04T19:14:27Z" finished-at="2017-09-04T19:14:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGetReponseElements -->
+        <test-method status="PASS" signature="checkGetResponseContentTypeJson()[pri:0, instance:com.twinerestapi.com.twine.DemoApp@6fb8f764]" name="checkGetResponseContentTypeJson" duration-ms="779" started-at="2017-09-04T19:14:29Z" finished-at="2017-09-04T19:14:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGetResponseContentTypeJson -->
+        <test-method status="PASS" signature="checkGetResponseOfTheFirstEmail()[pri:0, instance:com.twinerestapi.com.twine.DemoApp@6fb8f764]" name="checkGetResponseOfTheFirstEmail" duration-ms="707" started-at="2017-09-04T19:14:29Z" finished-at="2017-09-04T19:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGetResponseOfTheFirstEmail -->
+        <test-method status="PASS" signature="checkPutAPIResponseTime()[pri:0, instance:com.twinerestapi.com.twine.DemoApp@6fb8f764]" name="checkPutAPIResponseTime" duration-ms="629" started-at="2017-09-04T19:14:30Z" finished-at="2017-09-04T19:14:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPutAPIResponseTime -->
+        <test-method status="PASS" signature="checkPutReponseBody()[pri:0, instance:com.twinerestapi.com.twine.DemoApp@6fb8f764]" name="checkPutReponseBody" duration-ms="589" started-at="2017-09-04T19:14:31Z" finished-at="2017-09-04T19:14:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPutReponseBody -->
+        <test-method status="PASS" signature="checkPutReponseElements()[pri:0, instance:com.twinerestapi.com.twine.DemoApp@6fb8f764]" name="checkPutReponseElements" duration-ms="593" started-at="2017-09-04T19:14:31Z" finished-at="2017-09-04T19:14:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPutReponseElements -->
+        <test-method status="PASS" signature="checkPutResponseContentTypeJson()[pri:0, instance:com.twinerestapi.com.twine.DemoApp@6fb8f764]" name="checkPutResponseContentTypeJson" duration-ms="914" started-at="2017-09-04T19:14:32Z" finished-at="2017-09-04T19:14:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPutResponseContentTypeJson -->
+        <test-method status="PASS" signature="checkResponseCodeForCorrectGetRequest()[pri:0, instance:com.twinerestapi.com.twine.DemoApp@6fb8f764]" name="checkResponseCodeForCorrectGetRequest" duration-ms="626" started-at="2017-09-04T19:14:33Z" finished-at="2017-09-04T19:14:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseCodeForCorrectGetRequest -->
+        <test-method status="PASS" signature="checkResponseCodeForCorrectPutRequest()[pri:0, instance:com.twinerestapi.com.twine.DemoApp@6fb8f764]" name="checkResponseCodeForCorrectPutRequest" duration-ms="585" started-at="2017-09-04T19:14:33Z" finished-at="2017-09-04T19:14:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseCodeForCorrectPutRequest -->
+        <test-method status="PASS" signature="checkResponseCodeForIncorrectGetRequest()[pri:0, instance:com.twinerestapi.com.twine.DemoApp@6fb8f764]" name="checkResponseCodeForIncorrectGetRequest" duration-ms="613" started-at="2017-09-04T19:14:34Z" finished-at="2017-09-04T19:14:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseCodeForIncorrectGetRequest -->
+        <test-method status="PASS" signature="checkResponseCodeForIncorrectPutRequest()[pri:0, instance:com.twinerestapi.com.twine.DemoApp@6fb8f764]" name="checkResponseCodeForIncorrectPutRequest" duration-ms="608" started-at="2017-09-04T19:14:35Z" finished-at="2017-09-04T19:14:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseCodeForIncorrectPutRequest -->
+        <test-method status="PASS" signature="checkResponseOfTheEmailAfterTheUpdate()[pri:0, instance:com.twinerestapi.com.twine.DemoApp@6fb8f764]" name="checkResponseOfTheEmailAfterTheUpdate" duration-ms="591" started-at="2017-09-04T19:14:35Z" finished-at="2017-09-04T19:14:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseOfTheEmailAfterTheUpdate -->
+      </class> <!-- com.twinerestapi.com.twine.DemoApp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

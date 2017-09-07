@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.twinerestapi.com.twine.DemoApp" hash-for-method="checkGetAPIResponseTime">checkGetAPIResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.twinerestapi.com.twine.DemoApp" hash-for-method="checkGetReponseBody">checkGetReponseBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.twinerestapi.com.twine.DemoApp" hash-for-method="checkGetReponseElements">checkGetReponseElements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.twinerestapi.com.twine.DemoApp" hash-for-method="checkGetResponseContentTypeJson">checkGetResponseContentTypeJson</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.twinerestapi.com.twine.DemoApp" hash-for-method="checkGetResponseOfTheFirstEmail">checkGetResponseOfTheFirstEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.twinerestapi.com.twine.DemoApp" hash-for-method="checkPutAPIResponseTime">checkPutAPIResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.twinerestapi.com.twine.DemoApp" hash-for-method="checkPutReponseBody">checkPutReponseBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.twinerestapi.com.twine.DemoApp" hash-for-method="checkPutReponseElements">checkPutReponseElements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.twinerestapi.com.twine.DemoApp" hash-for-method="checkPutResponseContentTypeJson">checkPutResponseContentTypeJson</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.twinerestapi.com.twine.DemoApp" hash-for-method="checkResponseCodeForCorrectGetRequest">checkResponseCodeForCorrectGetRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.twinerestapi.com.twine.DemoApp" hash-for-method="checkResponseCodeForCorrectPutRequest">checkResponseCodeForCorrectPutRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.twinerestapi.com.twine.DemoApp" hash-for-method="checkResponseCodeForIncorrectGetRequest">checkResponseCodeForIncorrectGetRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.twinerestapi.com.twine.DemoApp" hash-for-method="checkResponseCodeForIncorrectPutRequest">checkResponseCodeForIncorrectPutRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.twinerestapi.com.twine.DemoApp" hash-for-method="checkResponseOfTheEmailAfterTheUpdate">checkResponseOfTheEmailAfterTheUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.twinerestapi.com.twine.DemoApp</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkGetAPIResponseTime">
+                  </a> <!-- checkGetAPIResponseTime -->
+                  <span class="method-name">checkGetAPIResponseTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkGetReponseBody">
+                  </a> <!-- checkGetReponseBody -->
+                  <span class="method-name">checkGetReponseBody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkGetReponseElements">
+                  </a> <!-- checkGetReponseElements -->
+                  <span class="method-name">checkGetReponseElements</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkGetResponseContentTypeJson">
+                  </a> <!-- checkGetResponseContentTypeJson -->
+                  <span class="method-name">checkGetResponseContentTypeJson</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkGetResponseOfTheFirstEmail">
+                  </a> <!-- checkGetResponseOfTheFirstEmail -->
+                  <span class="method-name">checkGetResponseOfTheFirstEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkPutAPIResponseTime">
+                  </a> <!-- checkPutAPIResponseTime -->
+                  <span class="method-name">checkPutAPIResponseTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkPutReponseBody">
+                  </a> <!-- checkPutReponseBody -->
+                  <span class="method-name">checkPutReponseBody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkPutReponseElements">
+                  </a> <!-- checkPutReponseElements -->
+                  <span class="method-name">checkPutReponseElements</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkPutResponseContentTypeJson">
+                  </a> <!-- checkPutResponseContentTypeJson -->
+                  <span class="method-name">checkPutResponseContentTypeJson</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseCodeForCorrectGetRequest">
+                  </a> <!-- checkResponseCodeForCorrectGetRequest -->
+                  <span class="method-name">checkResponseCodeForCorrectGetRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseCodeForCorrectPutRequest">
+                  </a> <!-- checkResponseCodeForCorrectPutRequest -->
+                  <span class="method-name">checkResponseCodeForCorrectPutRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseCodeForIncorrectGetRequest">
+                  </a> <!-- checkResponseCodeForIncorrectGetRequest -->
+                  <span class="method-name">checkResponseCodeForIncorrectGetRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseCodeForIncorrectPutRequest">
+                  </a> <!-- checkResponseCodeForIncorrectPutRequest -->
+                  <span class="method-name">checkResponseCodeForIncorrectPutRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseOfTheEmailAfterTheUpdate">
+                  </a> <!-- checkResponseOfTheEmailAfterTheUpdate -->
+                  <span class="method-name">checkResponseOfTheEmailAfterTheUpdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/private/var/folders/ry/tphn1xc916b4dm4x0bd_35_40000gn/T/testng-eclipse-995288578/testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.twinerestapi.com.twine.DemoApp&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'checkGetAPIResponseTime')
+data.setCell(0, 2, 'com.twinerestapi.com.twine.DemoApp')
+data.setCell(0, 3, 3220);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkGetReponseElements')
+data.setCell(1, 2, 'com.twinerestapi.com.twine.DemoApp')
+data.setCell(1, 3, 1402);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkPutResponseContentTypeJson')
+data.setCell(2, 2, 'com.twinerestapi.com.twine.DemoApp')
+data.setCell(2, 3, 914);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkGetReponseBody')
+data.setCell(3, 2, 'com.twinerestapi.com.twine.DemoApp')
+data.setCell(3, 3, 889);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkGetResponseContentTypeJson')
+data.setCell(4, 2, 'com.twinerestapi.com.twine.DemoApp')
+data.setCell(4, 3, 779);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'checkGetResponseOfTheFirstEmail')
+data.setCell(5, 2, 'com.twinerestapi.com.twine.DemoApp')
+data.setCell(5, 3, 707);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'checkPutAPIResponseTime')
+data.setCell(6, 2, 'com.twinerestapi.com.twine.DemoApp')
+data.setCell(6, 3, 629);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'checkResponseCodeForCorrectGetRequest')
+data.setCell(7, 2, 'com.twinerestapi.com.twine.DemoApp')
+data.setCell(7, 3, 626);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'checkResponseCodeForIncorrectGetRequest')
+data.setCell(8, 2, 'com.twinerestapi.com.twine.DemoApp')
+data.setCell(8, 3, 613);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkResponseCodeForIncorrectPutRequest')
+data.setCell(9, 2, 'com.twinerestapi.com.twine.DemoApp')
+data.setCell(9, 3, 608);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'checkPutReponseElements')
+data.setCell(10, 2, 'com.twinerestapi.com.twine.DemoApp')
+data.setCell(10, 3, 593);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'checkResponseOfTheEmailAfterTheUpdate')
+data.setCell(11, 2, 'com.twinerestapi.com.twine.DemoApp')
+data.setCell(11, 3, 591);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'checkPutReponseBody')
+data.setCell(12, 2, 'com.twinerestapi.com.twine.DemoApp')
+data.setCell(12, 3, 589);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'checkResponseCodeForCorrectPutRequest')
+data.setCell(13, 2, 'com.twinerestapi.com.twine.DemoApp')
+data.setCell(13, 3, 585);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.twinerestapi.com.twine.DemoApp</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkGetAPIResponseTime</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkGetReponseBody</span>
+                <span class="method-start">3223 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkGetReponseElements</span>
+                <span class="method-start">4114 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkGetResponseContentTypeJson</span>
+                <span class="method-start">5519 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkGetResponseOfTheFirstEmail</span>
+                <span class="method-start">6301 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkPutAPIResponseTime</span>
+                <span class="method-start">7010 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkPutReponseBody</span>
+                <span class="method-start">7641 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkPutReponseElements</span>
+                <span class="method-start">8232 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkPutResponseContentTypeJson</span>
+                <span class="method-start">8827 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResponseCodeForCorrectGetRequest</span>
+                <span class="method-start">9744 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResponseCodeForCorrectPutRequest</span>
+                <span class="method-start">10372 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResponseCodeForIncorrectGetRequest</span>
+                <span class="method-start">10959 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResponseCodeForIncorrectPutRequest</span>
+                <span class="method-start">11575 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResponseOfTheEmailAfterTheUpdate</span>
+                <span class="method-start">12185 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
